@@ -11,6 +11,7 @@
 
 <body>
   <div class="container">
+    <h3 class="heading">Loan Calculator</h3>
     <form class="loan-form">
       <div class="loan-amount-box">
         <span class="money-symbol">&#36;</span>
@@ -23,17 +24,23 @@
       <div class="total-years-box">
         <input type="number" name="total-years" class="total-years" placeholder="Years to repay">
       </div>
+      <div class="submit-button-box">
+        <input type="submit" value="Calculate" class="calculate btn">
+      </div>
     </form>
-
-    <div class="results">
+    <div class="results-box">
+      <h3 class="results">Results</h3>
       <div class="monthly-payment-box">
-        <input type="number" name="monthly-payment" class="monthly-payment" placeholder="Monthly Payment">
+        <span class="label-monthly">Monthly Payment</span>
+        <input type="number" name="monthly-payment" class="monthly-payment" disabled>
       </div>
       <div class="total-payment-box">
-        <input type="number" name="total-payment" class="total-payment" placeholder="Total Payment">
+        <span class="label-total">Total Payment</span>
+        <input type="number" name="total-payment" class="total-payment" disabled>
       </div>
       <div class="total-interest-box">
-        <input type="number" name="total-interest" class="total-interest" placeholder="Total Interest">
+        <span class="label-interest">Total Interest</span>
+        <input type="number" name="total-interest" class="total-interest" disabled>
       </div>
     </div>
   </div>

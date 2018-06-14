@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333;
+  background-color: #333;
+  padding: 2rem;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 40rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 3rem auto;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.8);
+}
+
+.heading,
+.results {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+.loan-form {
+  margin: 1rem 0;
+}
+
+.loan-amount-box,
+.interest-rate-box,
+.total-years-box {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.money-symbol,
+.percentage-symbol {
+  font-size: 1.6rem;
+  background-color: #eee;
+  color: #333;
+  width: 8%;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+}
+
+.interest-rate,
+.loan-amount {
+  flex: 1 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: none;
+  border-radius: 0.2rem;
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+
+.total-years,
+.calculate,
+.monthly-payment,
+.total-payment,
+.total-interest {
+  font-size: 1.6rem;
+  display: inline-block;
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+}
+
+.calculate {
+  background-color: #333;
+  color: #fff;
+}
+
+.total-payment-box,
+.total-interest-box {
+  margin-top: 1rem;
+}
+
+.label-monthly,
+.label-total,
+.label-interest {
+  display: inline-block;
+  font-size: 1.6rem;
+  width: 50%;
+}
+
+.error {
+  font-size: 2rem;
+  font-weight: 400;
+  border: 1px solid #333;
+  background-color: #ff9999;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.loading-msg {
+  font-size: 2rem;
+  color: #99ffbb;
+}
+
+.hide-results {
+  display: none;
+}
