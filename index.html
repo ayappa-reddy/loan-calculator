@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="app.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <form class="loan-form">
+      <div class="loan-amount-box">
+        <span class="money-symbol">&#36;</span>
+        <input type="number" name="loan-amount" class="loan-amount" placeholder="Loan amount">
+      </div>
+      <div class="interest-rate-box">
+        <span class="percentage-symbol">&#37;</span>
+        <input type="number" name="interest-rate" class="interest-rate" placeholder="Annual Interest rate">
+      </div>
+      <div class="total-years-box">
+        <input type="number" name="total-years" class="total-years" placeholder="Years to repay">
+      </div>
+    </form>
+
+    <div class="results">
+      <div class="monthly-payment-box">
+        <input type="number" name="monthly-payment" class="monthly-payment" placeholder="Monthly Payment">
+      </div>
+      <div class="total-payment-box">
+        <input type="number" name="total-payment" class="total-payment" placeholder="Total Payment">
+      </div>
+      <div class="total-interest-box">
+        <input type="number" name="total-interest" class="total-interest" placeholder="Total Interest">
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
