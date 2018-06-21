@@ -26,8 +26,7 @@
     };
   }
 
-  // Only show results after clicking the calculate btn
-
+  // Hide results initially
   getUIElms().resultsBoxEl.classList.add("hide-results");
 
   // Load all EventListeners
